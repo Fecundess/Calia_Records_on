@@ -122,29 +122,23 @@ section {
   font-size: 20px;
   color: white;
 }
-.Apresentação {
+
+.Apresentação_subtitulo{
+  color: gold;
+  font-size: 40px;
   display: flex;
+  flex-direction: unset;
+  justify-content: space-around;
+  gap: 0px;
   align-items: center;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-}
-.Apresentação-subtitulo {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background: linear-gradient(
-    90.6deg,
-    rgba(0, 0, 0, 0.93) 11.2%,
-    rgb(63, 61, 61) 78.9%
-  );
+  padding: 10px;
 }
 
-#video-resposivo{
-  display: flex;
-  align-items: center;
-  margin: 0px auto -100px;
-  height: 50%;
-  width: 50%;
+#video-resposivo {
+  width: 50%; /* O vídeo ocupará 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção original do vídeo */
+  border-radius: 8px; /* Bordas arredondadas, se desejar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para estética */
 }
 
 .Titulo {
