@@ -1,0 +1,555 @@
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+
+@media (max-width: 600px) {
+    .container_principal {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+        display: inline-block;
+        flex-direction: row;
+        justify-content: end;
+        
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .Apresentação {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .paragrafo_titulo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 0%;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .Apresentação-subtitulo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    #video-resposivo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+@media (max-width: 600px) {
+    .subtitulo {
+        font-size: 10px; /* Reduz o tamanho da fonte */
+        padding: 2px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 5px; /* Reduz o tamanho da fonte */
+        padding: 1px;
+        width: 100%;     /* Ocupa 100% da largura */
+        height: 100%;    /* Ocupa 100% da altura */
+        overflow: hidden; /* Evita rolagem desnecessária */
+    }
+}
+
+* {
+  margin: 0px;
+}
+hr {
+  border-color: #aaa;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 50px;
+}
+/* estilização do navegador*/
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.container_principal {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+    gap: 0px;
+    align-items: center;
+    padding: 10px;
+}
+.container-principal h3:hover {
+  color: gold;
+  transform: translateY(1.5s);
+  transition: 2s;
+  cursor: pointer;
+}
+/*estlização da seção principal*/
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+}
+.Apresentação {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+}
+.Apresentação-subtitulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(
+    90.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+}
+
+.Titulo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 0px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: gold;
+}
+
+.Titulo h1 {
+  margin: 0px 0px 20px 0px;
+}
+h3 {
+  height: -100px;
+}
+.segundo-container {
+  background: rgb(131, 58, 180);
+  background: radial-gradient(
+    circle,
+    rgba(131, 58, 180, 1) 52%,
+    rgba(252, 176, 69, 1) 100%,
+    rgba(253, 111, 29, 1) 100%
+  );
+}
+/* Centralização do ícone Home (Casa)*/
+#Home {
+  display: flex;
+  gap: 15px;
+}
+/* Animação no ícone home (casa)*/
+#Home:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  top: -2px;
+  border-radius: 7px;
+  box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/*Centralização do ícone de contato*/
+#phone {
+  display: flex;
+  gap: 15px;
+}
+/*Animação no ícone de contato*/
+#phone:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  border-radius: 7px;
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/* Centraliazação do ícone*/
+#exclamação {
+  display: flex;
+  gap: 15px;
+}
+/* Animação no ícone do saiba mais*/
+#exclamação:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+  border-radius: 7px;
+}
+/*Centralização de íncone da Calia*/
+#Calia-records {
+  display: flex;
+  gap: 15px;
+}
+/*Animação e sombremanto no ícone da Calia */
+#Calia-records:hover {
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  border-radius: 7px;
+  padding: 4px;
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/* Animação na imagem da Calia*/
+#Calia:hover {
+  border-radius: 10px;
+  color: gold;
+  transform: translate(1.5s);
+  transition: 2s;
+  cursor: pointer;
+  border-bottom: 2px solid gold;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  box-shadow: 0 2px 2px #666;
+  position: relative;
+  padding: 4px;
+  background-color: gray;
+  top: -2px;
+  border-bottom: 2px solid #999;
+  padding-bottom: 2px;
+  position: relative;
+  top: 0;
+  padding: 4px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  transition: all 0.2s ease-in-out;
+  top: -4px;
+  box-shadow: 0 4px 3px #999;
+}
+/*Alinhamento do fórmulario*/
+.subtitulo {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 28rem;
+  background: transparent;
+  padding: 2.5rem 3.5rem 20px 3.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1.8rem gold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 80px;
+}
+label {
+  width: 100%;
+  color: #777;
+  align-self: flex-start;
+  transition: 0.15 linear;
+}
+label:focus-within {
+  color: gold;
+}
+input {
+  font-size: 1.1875rem;
+  color: gray;
+  padding: 1rem 0 0.5rem 0;
+  width: 100%;
+  border: none;
+  border-color: #a0a0a0;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  margin-bottom: 15px;
+  transition: 0.15s linear;
+  background: transparent;
+  border-radius: 10px;
+}
+input:hover {
+  border: gold;
+}
+input:focus {
+  outline: none;
+  border-color: gold;
+}
+button {
+  font-size: 0.8125rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background: transparent;
+  color: gold;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+button:hover,
+button:focus {
+  outline: none;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  color: white;
+}
+fieldset {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.video {
+  background-image: radial-gradient(
+    circle at 50% -3.03%,
+    #bbdde1 0,
+    #bad5d6 12.5%,
+    #b9ccca 25%,
+    #b8c1c0 37.5%,
+    #b6b6b6 50%,
+    #b3abae 62.5%,
+    #afa1a8 75%,
+    #aa98a3 87.5%,
+    #a591a0 100%
+  );
+}
+.paragrafo-titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 7px;
+}
+h1 {
+  text-align: center;
+  color: gold;
+  margin: 20px 0px 5px 0px;
+}
+.checkbox {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.checkbox label {
+  display: flex;
+  gap: 7px;
+  align-items: baseline;
+  padding: 10px;
+}
+.footer {
+  background: linear-gradient(
+    109.6deg,
+    rgb(93, 90, 90) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer .container div {
+  flex: 1;
+  margin: 10px;
+}
+.footer h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: black;
+}
+.footer p,
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer a:hover {
+  color: gold;
+}
+.footer .container div:last-child {
+  border-right: none;
+}
+.footer .about {
+  flex-basis: 100%;
+  border-right: none;
+}
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  color: gold;
+}
+#mapa {
+  width: 70%;
+  height: 140px;
+  margin-top: 8%;
+}
+@media (max-width: 600px) {
+  header {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .container-principal {
+    flex-direction: column;
+    padding: 15px;
+  }
+  section {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .footer .container div {
+    flex: 1 1 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
